@@ -12,3 +12,13 @@ copy the blocks inside playground folder from `ThirdPersonExampleMap` to `Featur
 1. press `~` to open the console
 
 2. type `showdebug abilitysystem` and press Enter
+
+
+### To show enemy's attribute in debug mode:
+1. go to root -> config -> DefaultGame.ini
+2. add below code at the front of the file
+```
+[/Script/GameplayAbilities.AbilitySystemGlobals]
+bUseDebugTargetFromHud = true
+
+```
