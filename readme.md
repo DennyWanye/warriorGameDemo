@@ -22,3 +22,10 @@ copy the blocks inside playground folder from `ThirdPersonExampleMap` to `Featur
 bUseDebugTargetFromHud = true
 
 ```
+
+### To show enemy's 
+1. press `~` to open the console
+
+2. type `ai.crowd.DebugSelectedActors 1` and press Enter (need to do this everytime when we enter the UE editor)
+
+3. press F8, and select the target AI pawn
